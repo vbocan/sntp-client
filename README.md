@@ -1,5 +1,5 @@
 # A C# SNTP Client
-This is the very C# SNTP client used by Microsoft in .NET Micro Framework.
+This is the very C# SNTP client used by Microsoft in [.NET Micro Framework](https://netmf.github.io/).
 
 SNTPClient is a C# class designed to connect to time servers on the Internet and fetch the current date and time using the Network Time Protocol (NTP). The implementation of the protocol is based on the RFC 2030.
 
@@ -21,7 +21,7 @@ catch (Exception ex)
 	Console.WriteLine($"Error: {ex.Message}");
 }
 ```
-A typical response is:
+A typical response would be:
 
 ```
 Connecting to 0.pool.ntp.org...
@@ -38,3 +38,5 @@ Round trip delay : 504.7738 ms.
 Local clock offset : 2461.6131 ms.
 Local time : 8/3/2019 11:23:18 AM
 ```
+
+A list of NTP servers that you can connect to is maintained by the [NTP pool project](https://www.ntppool.org/en/).
