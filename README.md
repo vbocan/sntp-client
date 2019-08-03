@@ -23,16 +23,16 @@ catch (Exception ex)
 ```
 A typical response is:
 
-> Connecting to 0.pool.ntp.org...
-> Leap indicator : No warning
-> Version number : 3
-> Mode : Server
-> Stratum : Secondary reference
-> Precision : 2.98023223876953E-08 s.
-> Poll interval : 1 s.
-> Reference ID : ftp.upcnet.ro (78.96.7.8)
-> Root delay : 31.0821533203125 ms.
-> Root dispersion : 18.6767578125 ms.
-> Round trip delay : 504.7738 ms.
-> Local clock offset : 2461.6131 ms.
-> Local time : 8/3/2019 11:23:18 AM
+Connecting to 0.pool.ntp.org...
+Leap indicator : No warning
+Version number : 3
+Mode : Server
+Stratum : Secondary reference
+Precision : 2.98023223876953E-08 s.
+Poll interval : 1 s.
+Reference ID : ftp.upcnet.ro (78.96.7.8)
+Root delay : 31.0821533203125 ms.
+Root dispersion : 18.6767578125 ms.
+Round trip delay : 504.7738 ms.
+Local clock offset : 2461.6131 ms.
+Local time : 8/3/2019 11:23:18 AM
