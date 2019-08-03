@@ -23,6 +23,7 @@ catch (Exception ex)
 ```
 A typical response is:
 
+```
 Connecting to 0.pool.ntp.org...
 Leap indicator : No warning
 Version number : 3
@@ -36,3 +37,4 @@ Root dispersion : 18.6767578125 ms.
 Round trip delay : 504.7738 ms.
 Local clock offset : 2461.6131 ms.
 Local time : 8/3/2019 11:23:18 AM
+```
